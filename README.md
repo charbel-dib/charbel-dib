@@ -14,7 +14,7 @@ I build ML and LLM systems — and I measure them: baselines, held-out sets, err
 | --- | --- | --- |
 | [**FleetGuard**](https://github.com/charbel-dib/fleetguard) | Cost-aware failure detection on Scania trucks: challenge cost 8,530 vs 9,920 for the IDA 2016 winner, 98.4% recall. Deployed on AWS by CI ([live demo](https://huggingface.co/spaces/Charbeld77/fleetguard)) | scikit-learn · FastAPI · React · Terraform · AWS ECS |
 | [**ServicePilot**](https://github.com/charbel-dib/servicepilot) | LangGraph support agent with controlled tools, human approval of actions, idempotency and adversarial tests | LangGraph · FAISS · FastAPI · Docker · pytest |
-| [**ENSTA Campus Assistant**](https://github.com/charbel-dib/ensta_chatbot) | Bilingual RAG over web, PDF and XLSX sources, grounded citations, refusal and human escalation | E5 embeddings · FAISS · FastAPI |
+   | [**ENSTA Campus Assistant**](https://github.com/charbel-dib/ensta_chatbot) | Bilingual RAG over web, PDF and XLSX sources with cited answers: right source in the context for 55 of 60 evaluated questions, held-out check and calibrated refusal threshold | E5 embeddings · cross-encoder reranking · FAISS · FastAPI |
 | [**Algorithm tags**](https://github.com/charbel-dib/algorithm-tags) | Multi-label tagging of 4,982 Codeforces problems from statement + Python solution: macro-F1 67.5 vs 64.4 for a statement-only SVM | scikit-learn · Python AST features · pytest |
 
 #### Research & experience
